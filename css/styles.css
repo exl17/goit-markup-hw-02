@@ -13,7 +13,7 @@
    
 }
 .name-company-link {
-    color: #2E2F42;
+    color: #2e2f42;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -23,7 +23,7 @@
         text-transform: uppercase;
 }
 .link {
-    color: #2E2F42;
+    color: #2e2f42;
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -32,14 +32,14 @@
         letter-spacing: 0.02em;
 }
 .section-nav .link {
-    color: #434455;
+    color: #2e2f42;
 }
 
 .section-nav .link:hover, .page-nav .link:focus, .section-nav .link:active {
     color: #404BBF;
 }
 
-/* .address {
+ .address {
     color: 2e2f42;
 font-family: Roboto;
     font-size: 16px;
@@ -47,7 +47,7 @@ font-family: Roboto;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-} */
+} 
 
 .link-address {
     color: #434455;
@@ -118,6 +118,10 @@ color: var(--WHITE, #FFF);
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+}
+
+.list-color {
+    background-color: #FFFFFF;
 }
 
 .title-name-four {
