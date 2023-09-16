@@ -22,15 +22,20 @@
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
-.section-nav .link {
+.link {
     color: #2E2F42;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.section-nav .link {
+    color: #434455;
 }
 
-.section-nav .link:active {
-    color: #404BBF;
-}
-
-.section-nav .link:hover, .page-nav .link:focus {
+.section-nav .link:hover, .page-nav .link:focus, .section-nav .link:active {
     color: #404BBF;
 }
 
@@ -38,7 +43,7 @@
 font-family: Roboto;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -46,7 +51,7 @@ font-family: Roboto;
     font-family: Roboto;
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
@@ -77,12 +82,8 @@ color: var(--WHITE, #FFF);
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
-}
-
-.section-two {
-    background: var(--CLOUD, #F4F4FD);
 }
 
 .title-name-two {
@@ -95,9 +96,17 @@ color: var(--WHITE, #FFF);
     letter-spacing: 0.72px;
     text-transform: capitalize; 
 }
+.section-subtitle {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 .section-three {
-    background: var(--CLOUD, #F4F4FD);
+    background-color: #FFFFFF;
 }
 
 .title-name-three {
@@ -106,7 +115,7 @@ color: var(--WHITE, #FFF);
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
@@ -117,7 +126,7 @@ color: var(--WHITE, #FFF);
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
