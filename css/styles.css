@@ -39,32 +39,28 @@
     color: #404BBF;
 }
 
-.address {
+/* .address {
+    color: 2e2f42;
 font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.link-adress {
-    font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
-.adress .link-adress {
+} */
+
+.link-address {
     color: #434455;
-  
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.adress .link-adress:active {
-    color: #404BBF;
-}
-.adress .link-adress:hover, .adress .link-adress:focus {
-    color: #404BBF;
+.address .link-address:hover, .address .link-address:focus, .address .link-address:active {
+    color: #404bbf
 }
 
 .body-name {
@@ -104,9 +100,13 @@ color: var(--WHITE, #FFF);
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
+.paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 .section-three {
-    background-color: #FFFFFF;
+    background-color:#F4F4FD;
 }
 
 .title-name-three {
